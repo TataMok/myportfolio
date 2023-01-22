@@ -5,6 +5,7 @@
 }
 
 body {
+  background: linear-gradient(106.7deg, rgb(245, 167, 191) -6.2%, rgb(201, 218, 238) 46.4%, rgb(164, 240, 229) 86.4%);
   margin: 60px auto;
   max-width: 800px;
 }
