@@ -19,17 +19,17 @@ h3 {
 }
 
 h1 {
-  font-size: 68px;
+  font-size: 48px;
   text-align: center;
   color: aliceblue;
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 38px;
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 20px;
   opacity: 0.7;
   text-align: center;
 }
@@ -93,4 +93,7 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+.hero {
+  font-family: serif;
 }
