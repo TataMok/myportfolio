@@ -15,11 +15,13 @@ h2,
 h3 {
   text-align: center;
   margin: 0;
+  color:aliceblue;
 }
 
 h1 {
   font-size: 68px;
   text-align: center;
+  color: aliceblue;
 }
 
 h2 {
