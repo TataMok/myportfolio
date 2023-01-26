@@ -97,3 +97,8 @@ p {
 .hero {
   font-family: serif;
 }
+.container {
+  font-family: serif;
+  text-align: center;
+  color: var(--primary-color);
+}
