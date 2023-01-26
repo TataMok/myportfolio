@@ -102,3 +102,11 @@ p {
   text-align: center;
   color: var(--primary-color);
 }
+img {
+  
+  width: 100%;
+  border-radius: 8px;
+  transition: all 150ms ease-in-out;
+  margin: 15px 0;
+  transform: scale(2);
+}
