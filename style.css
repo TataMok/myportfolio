@@ -97,19 +97,3 @@ p {
 .hero {
   font-family: serif;
 }
-.grid {
-            margin: 15px 0;
-            display: grid;
-            grid-gap: 15px;
-        }
-
-        .grid img {
-            width: 100%;
-            border-radius: 8px;
-            transition: all 150ms ease-in-out;
-
-        }
-
-        .grid img:hover {
-            transform: scale(2);
-        }
