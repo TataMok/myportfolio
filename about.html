@@ -13,17 +13,16 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" />
     <style>
-        body {
+         body {
             margin: 60px auto;
             max-width: 800px;
+            background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgb(11, 132, 145) 91.1%);
         }
-
-        :root {
-            --primary-color: #2dc7cd;
-            --secondary-color: #f5f2fe;
-            --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-        }
-
+:root {
+  --primary-color: #2dc7cd;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
         h1 {
             font-size: 48px;
             text-align: center;
@@ -55,10 +54,7 @@
             line-height: 1.5;
             text-align: center;
             display: block;
-            margin-block-start: 1em;
-            margin-block-end: 1em;
-            margin-inline-start: 0px;
-            margin-inline-end: 0px;
+            
         }
 
         h4 {
@@ -67,7 +63,13 @@
             margin: 0;
             font-family: serif;
         }
+img {
+  margin: 15px 0;
+  width: 60%;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 
+}
         .email-link {
             display: flex;
             justify-content: center;
@@ -77,7 +79,10 @@
         }
 
         .container {
-            margin-bottom: 20px;
+            
+            font-family: serif;
+            text-align: center;
+            color: var(--primary-color);
         }
     </style>
 </head>
@@ -90,34 +95,28 @@
 
     <div class="about-paragraphs">
         <h1 id="about-me">About me</h1>
-        <h2>Front-end developer from Tallinn, Estonia</h2>
+        <h2 class="mb-4">Front-end developer from Tallinn, Estonia</h2>
         <div class="container">
             <div class="row">
-                <div class="col-md-6 p-2 shadow rounded">
-                    <p>
-                        Customer service and support-oriented with 10+ years
-                        experience.
-                        <br />
-                        <br />Skilled in Computer Networking, Project
-                        Management, Leadership,
-
-                        <br />Consistently hard working to achieve any goal and ability to
-                        hit deadlines on time.
-                    </p>
+                <div class="col-sm-6 mb-4">
+                    <img src="images/nata.jpg" class="img-fluid rouded shadow-sm border" />
+                <p class="mb-5">My first profession is a fashion and interior designer
+                     with over 10 years of experience; creation - it`s a most important part in my live.</p>
                 </div>
-                <div class="col-md-6 p-2 shadow rounded">
-                    <p>
+                <div class="col-sm-6 mb-4">
+                    <p class="mb-5">Customer service and support-oriented with 10+ years
+                    experience.
+                        Consistently hard working to achieve any goal and ability to
+                        hit deadlines on time.
                         Skills - Teamwork, Customer Service, Handling Conflict, Problem
                         Solving, Mentoring, Self learning, Methodical, Organized,
                         Passionate.
-
-                        <br />
                         - JavaScript, HTML, CSS.
                         <br />
                         - Visual Studio, XCode, Terminal (macOS), CodeSandbox, CodePen,
                         GitHub.
                         <br />
-                        - Slack, Google Workspace,Viber, Telegram, Zoom, Whatsapp for
+                        - Slack, Google Workspace, Viber, Telegram, Zoom, Whatsapp for
                         business.
                     </p>
                 </div>
