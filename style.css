@@ -58,12 +58,10 @@ p {
   justify-content: center;
 }
 
-.navigation-links a {
-  margin: 20px;
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
 }
 
 .contact-link {
@@ -97,7 +95,8 @@ p {
 .hero {
   font-family: serif;
 }
-.container {
+.content-container {
+  margin: 40px;
   font-family: serif;
   text-align: center;
   color: var(--primary-color);
@@ -109,4 +108,11 @@ img {
   transition: all 150ms ease-in-out;
   margin: 15px 0;
   transform: scale(1.2);
+}
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
 }
