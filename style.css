@@ -6,8 +6,9 @@
 
 body {
   background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgb(11, 132, 145) 91.1%);
-  margin: 60px auto;
+  margin: 0px auto;
   max-width: 800px;
+  
 }
 
 h1,
@@ -58,15 +59,11 @@ p {
 
 .navigation-links {
   display: flex;
-  margin-top: 40px;
+  margin-top: 20px;
   justify-content: center;
 }
 
-.navigation-links {
-  display: flex;
-  margin-top: 40px;
-  justify-content: center;
-}
+
 
 .contact-link {
   background: var(--primary-color);
@@ -89,7 +86,7 @@ p {
   display: flex;
   justify-content: center;
   color: var(--primary-color);
-  font-size: 28px;
+  font-size: 24px;
   text-decoration: none;
 }
 
@@ -98,6 +95,7 @@ p {
 }
 .hero {
   font-family: serif;
+  margin: 40px auto;
 }
 .content-container {
   margin: 40px;
@@ -131,4 +129,49 @@ img {
 .content p {
   margin: 0;
   font-size: 18px;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+   margin-left: 15px;
+}
+nav {
+  padding: 10px 0;
+
+}
+nav a {
+ text-decoration: none;
+ color:#2dc7cd;
+ transition: all 150ms ease-in-out;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--secondary-color);
+}
+footer .email-link {
+text-decoration: none;
+color: #2dc7cd;
+font-size: 24px;
+text-align: center;
+}
+footer .email-link:hover {
+  color: var(--secondary-color);
+}
+footer {
+  margin: 40px 0;
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--primary-color);
+  padding: 10px 14px;
+  font-size: 24px;
+  transition: all 150ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: var(--secondary-color);
 }
